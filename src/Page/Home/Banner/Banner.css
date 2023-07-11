@@ -1,0 +1,13 @@
+.banner-left h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-left span{
+    
+    background: linear-gradient(90deg, hsla(172, 85%, 74%, 1) 0%, hsla(319, 74%, 64%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .banner-right img{
+    max-width: 550px;
+} */
