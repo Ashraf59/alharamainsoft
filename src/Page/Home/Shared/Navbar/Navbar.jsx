@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import kaaba from '../../../../assets/banner-video/kaaba.svg'
+import kaaba from '../../../../assets/banner-video/kaaba-2.png';
 
 
 
@@ -10,11 +10,11 @@ const Navbar = () => {
   return (
     <>
       {/*<!-- Component: Basic Navbar --> */}
-      <header className="border-b-1 relative z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+      <header className="border-b-1 relative z-20 w-full border-b border-slate-200 bg-black shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
-            className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
+            className="flex h-[5.5rem] items-stretch justify-between font-medium text-white"
             role="navigation"
           >
             {/*      <!-- Brand logo --> */}
@@ -25,8 +25,10 @@ const Navbar = () => {
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
               href="javascript:void(0)"
             >
-              <img className='w-6' src={kaaba} alt="logo" />
-              Alharamainsoft
+              <div className='logo'>
+              <img className='w-7' src={kaaba} alt="logo" />
+              </div>
+              <span className='brand-name'>Alharamainsoft</span>
             </a>
             {/*      <!-- Mobile trigger --> */}
             <button
@@ -71,7 +73,7 @@ const Navbar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span><Link to="/">Home</Link></span>
@@ -83,7 +85,7 @@ const Navbar = () => {
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 text-emerald-500 transition-colors duration-300 hover:text-emerald-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span><Link to="about">About Us</Link></span>
@@ -94,7 +96,7 @@ const Navbar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span><Link to="services">Service</Link></span>
@@ -105,7 +107,7 @@ const Navbar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Contact</span>

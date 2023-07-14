@@ -1,13 +1,67 @@
+
+.banner-section{
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-video/banner-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .banner-left h1{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+}
+
+.banner-left p{
     font-family: 'Montserrat', sans-serif;
 }
 
 .banner-left span{
     
-    background: linear-gradient(90deg, hsla(172, 85%, 74%, 1) 0%, hsla(319, 74%, 64%, 1) 100%);
+    background: linear-gradient(90deg, rgb(61, 204, 248) 0%, rgb(248, 38, 101) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* .banner-right img{
-    max-width: 550px;
-} */
+.banner-right img{
+    background: transparent!important;
+} 
+
+.buttons {
+    margin: 3%;
+    text-align: left;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, rgb(61, 204, 248) 0%, #764ba2, #6B8DD6, rgb(248, 38, 101) 100%);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}

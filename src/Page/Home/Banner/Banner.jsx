@@ -1,6 +1,6 @@
-import React from 'react';
+
 import './Banner.css';
-import myGif from '../../../assets/banner-video/giphy .gif'
+import myGif from '../../../assets/banner-video/giphy.gif';
 import { Typewriter } from 'react-simple-typewriter'
 
 const Banner = () => {
@@ -19,7 +19,13 @@ const Banner = () => {
             delaySpeed={3000}
           />
         </span>
-                    Website with Alharamain</h1>
+                    Website with Alharamainsoft</h1>
+                    <p className='text-white text-2xl ms-12 mt-6 leading-16 tracking-wide'>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+
+                    
+                    <div className="buttons">
+                     <button className="btn-hover color-3">Get Started</button>
+                    </div>
             </div>
             <div className='banner-right h-screen max-w-lg w-full'>
             <img src={myGif} alt="my-gif" />
