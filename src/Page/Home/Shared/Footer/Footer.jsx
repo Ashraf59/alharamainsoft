@@ -1,6 +1,7 @@
 
 import '../Footer/footer.css';
 import kaaba from '../../../../assets/banner-video/kaaba-2.png';
+import {FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneAlt }  from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -33,6 +34,11 @@ const Footer = () => {
                     HTML ready to be used on your website or app. Just copy and
                     paste them on your Tailwind CSS project.
                   </p>
+                  <div className='flex mt-5'>
+                    <span className='mr-3 hover:text-blue-700 cursor-pointer'><FaFacebook size="25px"/></span>
+                   <span className='mr-3 hover:text-blue-700 cursor-pointer'> <FaLinkedin size="25px"/></span>
+                   <span className='hover:text-blue-700 cursor-pointer'><FaInstagram size="25px"/></span>
+                  </div>
                 </div>
                 <nav
                   className="col-span-2 md:col-span-4 lg:col-span-2"
@@ -48,7 +54,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Features
                       </a>
@@ -56,7 +62,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Customers
                       </a>
@@ -64,7 +70,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Why us?
                       </a>
@@ -72,7 +78,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Pricing
                       </a>
@@ -87,49 +93,42 @@ const Footer = () => {
                     className="mb-6 text-xl font-medium text-white"
                     id="footer-docs-5-logo"
                   >
-                    Docs & Help
+                    Our Services
                   </h3>
                   <ul>
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        Documentation
+                        Web Application
                       </a>
                     </li>
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        Training
+                        Mobile Apps
                       </a>
                     </li>
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        System status
+                        UI/UX Design
                       </a>
                     </li>
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        FAQ's
+                        Digital Marketing
                       </a>
                     </li>
-                    <li className="mb-2 leading-6">
-                      <a
-                        href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
-                      >
-                        Help Center
-                      </a>
-                    </li>
+                    
                   </ul>
                 </nav>
                 <nav
@@ -146,7 +145,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         About us
                       </a>
@@ -154,7 +153,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Careers
                       </a>
@@ -162,7 +161,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Leadership
                       </a>
@@ -170,19 +169,12 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
                         Blog
                       </a>
                     </li>
-                    <li className="mb-2 leading-6">
-                      <a
-                        href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
-                      >
-                        Events
-                      </a>
-                    </li>
+                    
                   </ul>
                 </nav>
                 <nav
@@ -193,46 +185,48 @@ const Footer = () => {
                     className="mb-6 text-xl font-medium text-white"
                     id="footer-get-in-touch-5-logo"
                   >
-                    Get in touch
+                    Contact Information
                   </h3>
                   <ul>
-                    <li className="mb-2 leading-6">
+                    <li className="mb-2 leading-6 flex items-center">
+                    <span><FaPhoneAlt color='blue' size='16px'/></span>
+                    
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="ml-2 font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        Contact
+                         +88 01568-242054
                       </a>
                     </li>
-                    <li className="mb-2 leading-6">
+                    <li className="mb-2 leading-6 flex items-center">
+                    <span><FaMailBulk color='blue' size='16px'/></span>
+                   
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="ml-2 font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        Support
+                        info@alharamainsoft.com
                       </a>
                     </li>
-                    <li className="mb-2 leading-6">
+                    <li className="mb-2 leading-6 flex items-center">
+                      <FaLocationArrow color='blue' size='16px'/>
                       <a
                         href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
+                        className="ml-2 font-semibold transition-colors duration-300 hover:text-blue-700 focus:text-blue-700"
                       >
-                        Partners
+                        Chattogram, Bangladesh
                       </a>
                     </li>
-                    <li className="mb-2 leading-6">
-                      <a
-                        href="javascript:void(0)"
-                        className="transition-colors duration-300 hover:text-rose-500 focus:text-rose-600"
-                      >
-                        Join research
-                      </a>
-                    </li>
+                   
                   </ul>
                 </nav>
               </div>
             </div>
+            <div className='text-center border-t border-slate-200 pt-8 mt-6'>
+    <p>Copyright © 2023 - All right reserved by Alharamainsoft</p>
+  </div>
           </div>
+          
         </footer>
         {/*    <!-- End Five Columns Footer with Logo --> */}
       </>

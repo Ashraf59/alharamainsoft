@@ -73,7 +73,7 @@ const Navbar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-700 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span><Link to="/">Home</Link></span>
@@ -85,7 +85,7 @@ const Navbar = () => {
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-700 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span><Link to="about">About Us</Link></span>
@@ -96,7 +96,7 @@ const Navbar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-700 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span><Link to="services">Service</Link></span>
@@ -107,7 +107,7 @@ const Navbar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-700 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Contact</span>
