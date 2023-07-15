@@ -1,29 +1,54 @@
 
-.banner-section{
+/* .banner-section{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-video/banner-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
+} */
+
+video{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    height: 100vh;
+   
+}
+.banner-content{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    height: 100%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
 }
 
-.banner-left h1{
+ .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100% + 6.5rem);
+     background-color: rgba(0, 0, 0, 0.5);
+} 
+.banner-content h1{
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 5px;
 }
 
-.banner-left p{
+.banner-content p{
     font-family: 'Montserrat', sans-serif;
 }
 
-.banner-left span{
+.banner-content span{
     
     background: linear-gradient(90deg, rgb(61, 204, 248) 0%, rgb(248, 38, 101) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.banner-right img{
-    background: transparent!important;
-} 
+
 
 .buttons {
     margin: 3%;
