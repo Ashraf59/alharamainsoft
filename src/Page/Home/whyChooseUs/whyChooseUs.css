@@ -3,12 +3,13 @@
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
+    
 } 
 .whyChooseUs-subtitle{
-    background: linear-gradient(90deg, rgb(61, 204, 248) 0%, #7b02f3);
+    background: linear-gradient(90deg, rgb(61, 204, 248) 0%, rgb(248, 38, 101) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .model-img img{
-    transform: translateY(6px);
+    transform: translateY(0px);
 }

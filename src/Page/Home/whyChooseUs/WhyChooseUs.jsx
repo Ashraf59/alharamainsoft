@@ -4,7 +4,7 @@ import model from '../../../assets/banner-video/why-choose-us-model.png';
 
 const WhyChooseUs = () => {
     return (
-        <div className="hero min-h-screen whyChooseUs-bg">
+        <div className="hero min-h-screen whyChooseUs-bg pt-24">
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-center lg:text-left w-full max-w-md">
             <p className="py-6 text-lg whyChooseUs-subtitle font-semibold uppercase">REASON TO CHOOSE US</p>
