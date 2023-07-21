@@ -1,0 +1,12 @@
+.about-bg{
+    background: url('../../../assets/banner-video/alharamain-bg-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-title{
+    background: linear-gradient(90deg, rgb(61, 204, 248) 0%, rgb(248, 38, 101) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
