@@ -1,92 +1,47 @@
 
-/* .banner-section{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-video/banner-1.jpg');
+ 
+ .banner-section{
+    width: 100%;
+    height: 100vh;
+ }
+ .bg-image{
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../assets/banner-image/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: hidden;
-} */
-
-video{
-    width: 100%;
-    /* height: 100%; */
-    object-fit: cover;
-   height: 100vh;
-   
-}
-.banner-content{
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    height: 100%;
-    max-width: 900px;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-}
-
- .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: calc(100% + 6.5rem);
-     background-color: rgba(0, 0, 0, 0.5);
 } 
-.banner-content h1{
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 5px;
+
+.banner-title h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5rem;
+    color: #F0EFF4;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-weight: 500;
+    word-spacing: 10px;
+                                                
+}
+@media only screen and (max-width: 1200px){
+    .banner-title h3{
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width: 992px){
+    .banner-title h3{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner-title h3{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    .banner-title h3{
+        font-size: 2rem;
+    }
 }
 
-.banner-content p{
-    font-family: 'Montserrat', sans-serif;
-}
 
-.banner-content span{
-    
-    background: linear-gradient(90deg, rgb(61, 204, 248) 0%, rgb(248, 38, 101) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
-.buttons {
-    margin: 3%;
-    text-align: left;
-}
-
-.btn-hover {
-    width: 200px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:focus {
-    outline: none;
-}
-
-.btn-hover.color-3 {
-    background-image: linear-gradient(to right, rgb(61, 204, 248) 0%, #764ba2, #6B8DD6, rgb(248, 38, 101) 100%);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
-}
