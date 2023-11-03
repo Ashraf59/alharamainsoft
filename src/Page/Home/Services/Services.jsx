@@ -36,8 +36,8 @@ const Services = () => {
     return (
         <div className=' pt-20'>
             <div className=' text-center uppercase'>
-            <h2 className=''>WHAT WE PROVIDE</h2>
-            <h3 className='capitalize text-4xl font-bold mt-5 service-subtitle'>Igniting growth through our tailored digital services.</h3>
+            <h2 className='service-title'>WHAT WE PROVIDE</h2>
+            <h3 className='capitalize text-5xl font-bold mt-5 service-subtitle'>Igniting growth through our tailored digital services.</h3>
             </div>
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 container mx-auto max-w-5xl'>
            {

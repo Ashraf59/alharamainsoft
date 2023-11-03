@@ -7,7 +7,5 @@
 }
 
 .service-title{
-    background: linear-gradient(100deg, rgb(61, 204, 248) 25%, rgb(248, 38, 101) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #939496;
 }

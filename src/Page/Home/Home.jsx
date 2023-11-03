@@ -13,7 +13,6 @@ const Home = () => {
           <OurTech></OurTech>
           <Services></Services>
           <WhyChooseUs></WhyChooseUs>
-        
           <About></About>
           <DevelopBusiness></DevelopBusiness>
        
