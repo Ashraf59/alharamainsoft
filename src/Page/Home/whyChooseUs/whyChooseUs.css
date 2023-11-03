@@ -1,15 +1,20 @@
- .whyChooseUs-bg{
-    background: url('../../../assets/banner-video/why-choose-us.png');
-    background-position: right top;
+  .whyChooseUs-bg{
+     background: url('../../../assets/banner-video/hero-bg-line-shapes.png');
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
+   
     
-} 
+}  
+
 .whyChooseUs-subtitle{
-    background: linear-gradient(90deg, rgb(61, 204, 248) 0%, rgb(248, 38, 101) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #F0EFF4;
 }
+
+.whychooseUs-title, .whychooseUs-p{
+    color: #F0EFF4;
+}
+
+
 .model-img img{
     transform: translateY(0px);
 }

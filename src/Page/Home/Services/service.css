@@ -4,3 +4,10 @@
     
 }
 
+img{
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+.bg-color{
+    background-color: #F0EFF4;
+}

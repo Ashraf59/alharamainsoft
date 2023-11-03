@@ -9,20 +9,38 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
 } 
 
-.banner-title h3{
+ .banner-title h3{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     font-size: 4.5rem;
     color: #F0EFF4;
     font-family: 'PP Neue Montreal', sans-serif;
     font-weight: 500;
     word-spacing: 10px;
+    line-height: 90px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
                                                 
+} 
+.banner-title p{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    font-size: 1.2rem;
+    color: #F0EFF4;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-weight: 500;
+    word-spacing: 3px;
 }
+
+
+
 @media only screen and (max-width: 1200px){
     .banner-title h3{
         font-size: 3.5rem;

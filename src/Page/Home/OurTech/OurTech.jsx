@@ -16,10 +16,10 @@ const OurTech = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 5000,
+        speed: 7000,
         autoplaySpeed: 0,
         cssEase: "linear",
         responsive: [
@@ -51,14 +51,14 @@ const OurTech = () => {
       };
     return (
         <div>
-            <div className='text-center mt-16'>
-            <p className='text-lg font-semibold uppercase ourTech-title'>OUR TECH STACK</p>
-            <h1 className='mt-5 text-5xl font-bold'>We focus on trending technologies</h1>
+            <div className='text-center pt-32'>
+            <p className='uppercase ourTech-title'>OUR TECH STACK</p>
+            <h1 className='mt-5 text-5xl font-bold ourTech-subtitle'>We focus on trending technologies</h1>
 
             <p className='py-6 text-xl'>We focus on leading technologies for building high performing web & mobile products.</p>
             </div>
 
-            <div className='tech-slider mb-16 mt-6'>
+            <div className='tech-slider mb-16'>
             <Slider {...settings}>
           <div>
             <img src={reactPng} alt="" />

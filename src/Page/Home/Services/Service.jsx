@@ -8,7 +8,7 @@ const Service = ({service}) => {
         <div>
             <>
       {/*<!-- Component: Card with icon --> */}
-      <div className=" overflow-hidden mt-16 mb-32 text-left bg-white rounded-xl text-slate-500 border-2 shadow-lg border-slate-300">
+      <div className=" overflow-hidden mt-16 mb-32 text-left rounded-xl border border-gray-200 bg-color">
         {/*  <!-- Icon --> */}
         <figure className="p-6 pb-0">
           <img className="icon-size" src={img} alt="" />
