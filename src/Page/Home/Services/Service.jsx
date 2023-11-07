@@ -1,14 +1,14 @@
 import './service.css';
 
 const Service = ({service}) => {
-    console.log(service);
+    
     const {title, description, img} = service
   
     return (
         <div>
             <>
       {/*<!-- Component: Card with icon --> */}
-      <div className=" overflow-hidden mt-16 mb-32 text-left rounded-xl border border-gray-200 bg-color">
+      <div className=" overflow-hidden mt-16 mx-8 lg:mx-0 lg:mb-32 text-left rounded-xl border border-gray-200 bg-color shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
         {/*  <!-- Icon --> */}
         <figure className="p-6 pb-0">
           <img className="icon-size" src={img} alt="" />

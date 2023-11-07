@@ -24,7 +24,7 @@ const Footer = () => {
                     href="javascript:void(0)"
                   >
                     
-              <span className='brand-name text-gray-100 text-xl font-medium'>Alharamainsoft</span>
+              <span className='brand-name text-gray-200 text-xl font-medium'>Alharamainsoft</span>
                   </a>
                   <p className='text-gray-400'>
                     Expertly made, responsive, accessible components in React and
@@ -42,7 +42,7 @@ const Footer = () => {
                   aria-labelledby="footer-product-5-logo"
                 >
                   <h3
-                    className="mb-6 text-xl font-medium text-white"
+                    className="mb-6 text-xl font-medium text-gray-200"
                     id="footer-product-5-logo"
                   >
                     Product
@@ -51,7 +51,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Features
                       </a>
@@ -59,7 +59,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Customers
                       </a>
@@ -67,7 +67,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Why us?
                       </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Pricing
                       </a>
@@ -87,7 +87,7 @@ const Footer = () => {
                   aria-labelledby="footer-docs-5-logo"
                 >
                   <h3
-                    className="mb-6 text-xl font-medium text-white"
+                    className="mb-6 text-xl font-medium text-gray-200"
                     id="footer-docs-5-logo"
                   >
                     Our Services
@@ -96,7 +96,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Web Application
                       </a>
@@ -104,7 +104,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Mobile Apps
                       </a>
@@ -112,7 +112,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         UI/UX Design
                       </a>
@@ -120,7 +120,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Digital Marketing
                       </a>
@@ -133,7 +133,7 @@ const Footer = () => {
                   aria-labelledby="footer-about-5-logo"
                 >
                   <h3
-                    className="mb-6 text-xl font-medium text-white"
+                    className="mb-6 text-xl font-medium text-gray-200"
                     id="footer-about-5-logo"
                   >
                     About us
@@ -142,7 +142,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         About us
                       </a>
@@ -150,7 +150,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Careers
                       </a>
@@ -158,7 +158,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-blue-700"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Leadership
                       </a>
@@ -166,7 +166,7 @@ const Footer = () => {
                     <li className="mb-2 leading-6">
                       <a
                         href="javascript:void(0)"
-                        className="font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-gray-400"
+                        className="font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Blog
                       </a>
@@ -179,37 +179,37 @@ const Footer = () => {
                   aria-labelledby="footer-get-in-touch-5-logo"
                 >
                   <h3
-                    className="mb-6 text-xl font-medium text-white"
+                    className="mb-6 text-xl font-medium text-gray-200"
                     id="footer-get-in-touch-5-logo"
                   >
                     Contact Information
                   </h3>
                   <ul>
                     <li className="mb-2 leading-6 flex items-center">
-                    <span><FaPhoneAlt className='text-white' size='16px'/></span>
+                    <span><FaPhoneAlt className='text-gray-200' size='16px'/></span>
                     
                       <a
                         href="javascript:void(0)"
-                        className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-gray-400"
+                        className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                          +88 01568-242054
                       </a>
                     </li>
                     <li className="mb-2 leading-6 flex items-center">
-                    <span><FaMailBulk className='text-white' size='16px'/></span>
+                    <span><FaMailBulk className='text-gray-200' size='16px'/></span>
                    
                       <a
                         href="javascript:void(0)"
-                        className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-gray-400"
+                        className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         info@alharamainsoft.com
                       </a>
                     </li>
                     <li className="mb-2 leading-6 flex items-center">
-                      <FaLocationArrow className='text-white' size='16px'/>
+                      <FaLocationArrow className='text-gray-200' size='16px'/>
                       <a
                         href="javascript:void(0)"
-                        className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 focus:text-gray-400"
+                        className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
                         Chattogram, Bangladesh
                       </a>

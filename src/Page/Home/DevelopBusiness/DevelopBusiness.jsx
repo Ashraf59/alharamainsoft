@@ -1,6 +1,7 @@
 import './developBusiness.css';
 import itBusiness from '../../../assets/banner-video/it-business.png';
 
+
 const DevelopBusiness = () => {
     return (
         <div className="hero min-h-screen mt-72">
@@ -13,6 +14,8 @@ const DevelopBusiness = () => {
           <div className="max-w-2xl model-img">
           <figure><img src={itBusiness} alt="Album"/></figure>
           </div>
+
+         
         </div>
       </div>
     );

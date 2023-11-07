@@ -13,6 +13,7 @@ body {
   overflow-x: hidden;
   background-color: #FAFAFA;
   font-family: 'PP Neue Montreal', sans-serif;
+  max-width: 100vw;
 }
 
 

@@ -5,7 +5,7 @@
     height: 100vh;
  }
  .bg-image{
-    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../assets/banner-image/banner.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-image/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
