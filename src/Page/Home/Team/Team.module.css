@@ -1,0 +1,8 @@
+
+.team-member img{
+  filter: grayscale(100%);
+}
+.team-member img:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+  }
