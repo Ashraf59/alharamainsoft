@@ -3,6 +3,7 @@
 import web from '../../../assets/banner-video/web.png';
 import mob from '../../../assets/banner-video/mob-app.png';
 import ui from '../../../assets/banner-video/ui-design.png';
+import digital from '../../../assets/banner-video/digital.png';
 import Service from './Service';
 import './Services.css';
 
@@ -18,7 +19,7 @@ const Services = () => {
         },
         {
             id: 2,
-            title: 'App Development',
+            title: 'Android & iOS Development',
             description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
             img:mob 
            
@@ -26,9 +27,16 @@ const Services = () => {
         },
         {
             id: 3,
-            title: 'UI/UX',
+            title: 'UI/UX Design',
             description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
             img:ui 
+              
+        },
+        {
+            id: 4,
+            title: 'Digital Marketing',
+            description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
+            img:digital 
               
         }
     ]
@@ -39,7 +47,7 @@ const Services = () => {
             <h2 className='service-title'>WHAT WE PROVIDE</h2>
             <h3 className='capitalize text-5xl font-bold mt-5 service-subtitle'>Igniting growth through our tailored digital services.</h3>
             </div>
-           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 container mx-auto max-w-5xl'>
+           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 container mx-auto max-w-6xl'>
            {
                 serviceData.map(service => <Service
                 key={service.id}
