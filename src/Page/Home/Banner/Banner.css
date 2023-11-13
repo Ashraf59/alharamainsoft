@@ -70,48 +70,45 @@
 } */
 
 .slider__item-01{
-    background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)), url('../../../assets/banner-image/banner.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url('../../../assets/banner-image/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-   
 }
 
 .slider__item-02{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-image/banner-1.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url('../../../assets/banner-image/banner-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    
     
 }
 
 .slider__item-03{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-image/web.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url('../../../assets/banner-image/web.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 .slider__item-04{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-image/banner-3.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url('../../../assets/banner-image/banner-3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+   
 }
 .slider__item-05{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('../../../assets/banner-image/banner-4.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url('../../../assets/banner-image/banner-4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+   
 }
 
 /* .hero__slider{

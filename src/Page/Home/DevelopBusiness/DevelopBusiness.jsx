@@ -12,7 +12,7 @@ const DevelopBusiness = () => {
             <p className="py-6 text-xl text-gray-400">Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software development needs.</p>
           </div>
           <div className="max-w-2xl model-img">
-          <figure><img src={itBusiness} alt="Album"/></figure>
+          <figure><img className='' src={itBusiness} alt="Album"/></figure>
           </div>
 
          

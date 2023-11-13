@@ -1,11 +1,12 @@
 
 import './OurTeam.css';
 import img1 from '../../../assets/team/ashraf-1.png'
-import img2 from '../../../assets/team/tanvir-1.png'
-import img3 from '../../../assets/team/developer.jpg'
+import img2 from '../../../assets/team/tanvir.png'
 import img4 from '../../../assets/team/Amanullah.png'
 import img5 from '../../../assets/team/Hafijul.png'
 import img6 from '../../../assets/team/Torikul.png'
+import img7 from '../../../assets/team/tista.png'
+import img8 from '../../../assets/team/juwairia.png'
 import Team from '../Team/Team';
 
 
@@ -26,32 +27,40 @@ const OurTeam = () => {
            
            
         },
+    
         {
             id: 3,
-            name: 'Mr. Carl',
-            designation: 'UI / UX Designer, Alharamain Soft',
-            img:img3 
-              
-        },
-        {
-            id: 4,
             name: 'Md. Amanullah Parvez',
             designation: 'Full Stack Web Developer (MERN), Alharamain Soft',
             img:img4 
               
         },
         {
-            id: 5,
+            id: 4,
             name: 'Md. Hafijul Islam',
             designation: 'Wordpress Developer, Alharamain Soft',
             img:img5 
               
         },
         {
-            id: 6,
+            id: 5,
             name: 'Torikul Islam Tarif',
             designation: 'Wordpress Developer, Alharamain Soft',
             img:img6 
+              
+        },
+        {
+            id: 6,
+            name: 'Tajnuva Taskin Tahiya Tista',
+            designation: 'UI/UX Designer, Alharamain Soft',
+            img:img7 
+              
+        },
+        {
+            id: 7,
+            name: 'Juwairia Rubaiyat Saria Shifa',
+            designation: 'Digital Marketer, Alharamain Soft',
+            img:img8 
               
         }
     ]

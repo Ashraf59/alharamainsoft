@@ -8,11 +8,11 @@ const About = () => {
             
             <div className="flex justify-around items-center flex-col lg:flex-row">
             <div className="mt-12 relative">
-            <div className='border-b-8 border-gray-500 border-s-8 rounded-lg'>
-            <img className='rounded-r-lg' src={bigImg} alt="" />
+            <div className=''>
+            <img className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg' src={bigImg} alt="" />
             </div>
-            <div className='absolute -bottom-8 -right-8 border-e-8 border-b-8 border-gray-500 rounded-lg'>
-            <img className='rounded-l-lg' src={smallImg} alt="" />
+            <div className='absolute -bottom-8 -right-8   '>
+            <img className='rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]' src={smallImg} alt="" />
             </div>
           </div>
           <div className="text-center lg:text-left w-full max-w-md">

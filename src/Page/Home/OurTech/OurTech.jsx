@@ -10,6 +10,9 @@ import bootstrapPng from '../../../assets/tech/bootstrap.png';
 import tailwindPng from '../../../assets/tech/tailwind.png';
 import reduxPng from '../../../assets/tech/Redux.png';
 import mongodbPng from '../../../assets/tech/MongoDB.png';
+import reactNative from '../../../assets/tech/react native.png';
+import flutter from '../../../assets/tech/flutter.png';
+import wordpress from '../../../assets/tech/WordPress.png';
 
 
 const OurTech = () => {
@@ -83,6 +86,15 @@ const OurTech = () => {
           </div>
           <div>
           <img src={mongodbPng} alt="" />
+          </div>
+          <div>
+          <img src={reactNative} alt="" />
+          </div>
+          <div>
+          <img src={flutter} alt="" />
+          </div>
+          <div>
+          <img src={wordpress} alt="" />
           </div>
         </Slider>
 
