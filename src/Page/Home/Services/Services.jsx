@@ -42,7 +42,8 @@ const Services = () => {
     ]
   
     return (
-        <div className=' pt-20'>
+        <div className=' pt-20' data-aos="fade-up"
+        data-aos-duration="3000">
             <div className=' text-center uppercase'>
             <h2 className='service-title'>WHAT WE PROVIDE</h2>
             <h3 className='capitalize text-5xl font-bold mt-5 service-subtitle'>Igniting growth through our tailored digital services.</h3>

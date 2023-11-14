@@ -14,6 +14,12 @@ import wordpress from '../../../assets/tech/WordPress.png';
 const TechnologyMarquee = () => {
     return (
         <div className="">
+            <div className='text-center pt-32'>
+            <p className='uppercase ourTech-title'>OUR TECH STACK</p>
+            <h1 className='mt-5 text-5xl font-bold ourTech-subtitle'>We focus on trending technologies</h1>
+
+            <p className='py-6 text-xl'>We focus on leading technologies for building high performing web & mobile products.</p>
+            </div>
            <Marquee direction="right">
            <div className="mr-14">
             <img className="w-48  object-contain" src={reactPng} alt="" />

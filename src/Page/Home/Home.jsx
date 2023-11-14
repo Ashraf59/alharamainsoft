@@ -16,7 +16,7 @@ const Home = () => {
         <div>
           <Banner></Banner>
           <ServiceMarqueeText></ServiceMarqueeText>
-          <OurTech></OurTech>
+          {/* <OurTech></OurTech> */}
           <TechnologyMarquee></TechnologyMarquee>
           <Services></Services>
           <WhyChooseUs></WhyChooseUs>
