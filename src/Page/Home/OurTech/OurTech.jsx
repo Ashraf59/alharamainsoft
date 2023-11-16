@@ -56,9 +56,9 @@ const OurTech = () => {
         <div>
             <div className='text-center pt-32'>
             <p className='uppercase ourTech-title'>OUR TECH STACK</p>
-            <h1 className='mt-5 text-5xl font-bold ourTech-subtitle'>We focus on trending technologies</h1>
+            <h1 className='mt-5 text-4xl md:text-5xl font-bold ourTech-subtitle'>We focus on trending technologies</h1>
 
-            <p className='py-6 text-xl'>We focus on leading technologies for building high performing web & mobile products.</p>
+            <p className='py-6 px-4 text-2xl w-48 md:w-10/12'>We focus on leading technologies for building high performing web & mobile products.</p>
             </div>
 
             <div className='tech-slider mb-16'>

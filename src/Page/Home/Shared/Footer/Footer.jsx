@@ -202,7 +202,7 @@ const Footer = () => {
                         href="javascript:void(0)"
                         className="ml-2 font-semibold transition-colors duration-300 hover:text-gray-400 text-gray-200"
                       >
-                        info@alharamainsoft.com
+                        alharamainsoft@gmail.com
                       </a>
                     </li>
                     <li className="mb-2 leading-6 flex items-center">

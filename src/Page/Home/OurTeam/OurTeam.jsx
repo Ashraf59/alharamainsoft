@@ -101,17 +101,17 @@ const OurTeam = () => {
    
     return (
             <div className='max-w-6xl mx-auto mt-10'>
-            <h1 className='text-6xl md:text-7xl lg:text-8xl font-bold text-gray-200'>Alharamain Soft</h1>
-             <h2 className='text-6xl md:text-8xl lg:text-9xl font-bold -mt-7'>Team</h2>
+            <h1 className='text-4xl ml-3 sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-200 text-center lg:text-left'>Alharamain Soft</h1>
+             <h2 className='text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold lg:-mt-7 -mt-3 ml-3 text-center lg:text-left'>Team</h2>
              <Marquee>
-             <div className=''>
-             <p className='text-4xl overflow-y-hidden'> Our <span className='font-medium'>Talented & Experience Team </span> is ready to help you - </p>
+             <div className='mt-4'>
+             <p className='text-2xl lg:text-4xl overflow-y-hidden'> Our <span className='font-medium'>Talented & Experience Team </span> is ready to help you - </p>
              </div>
-             <div>
-             <p className='text-4xl overflow-y-hidden'> Our team's seamless journey from - <span className='font-medium'>Vision to Reality </span> - </p>
+             <div className='mt-4'>
+             <p className='text-2xl lg:text-4xl overflow-y-hidden'> Our team's seamless journey from - <span className='font-medium'>Vision to Reality </span> - </p>
              </div>
                 </Marquee>
-             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-center my-12'>
+             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-center my-12 gap-x-5 mx-5'>
         {
             teamData.map(team => <Team
             key={team.id}

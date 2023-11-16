@@ -52,18 +52,18 @@ const Portfolio = () => {
     return (
         
         <div className='max-w-6xl mx-auto mt-10'>
-            <h1 className='text-6xl md:text-7xl lg:text-8xl font-bold text-gray-200'>Alharamain Soft</h1>
-             <h2 className='text-6xl md:text-8xl lg:text-9xl font-bold -mt-7'>Portfolio</h2>
+            <h1 className='text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-200 text-center lg:text-left'>Alharamain Soft</h1>
+             <h2 className='text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold lg:-mt-7 text-center lg:text-left -mt-3'>Portfolio</h2>
              
              <Marquee>
-             <div className=''>
-             <p className='text-4xl overflow-y-hidden'>We develop any types of - <span className='font-medium'>Website & Apps</span> from scratch -</p>
+             <div className='mt-4'>
+             <p className='text-2xl lg:text-4xl overflow-y-hidden'>We develop any types of - <span className='font-medium'>Website & Apps</span> from scratch -</p>
              </div>
-             <div>
-             <p className='text-4xl overflow-y-hidden'>We also customize - <span className='font-medium'>themeforest templete</span> - </p>
+             <div className='mt-4'>
+             <p className='text-2xl lg:text-4xl overflow-y-hidden'>We also customize - <span className='font-medium'>themeforest templete</span> - </p>
              </div>
                 </Marquee>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-center my-20 gap-y-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-center my-20 gap-y-7'>
             
             {
                 images.map(image => <Gallery
