@@ -4,7 +4,7 @@ import smallImg from '../../../assets/banner-video/about-sm.jpg';
 
 const About = () => {
     return (
-        <div className='mt-14 lg:py-28 h-screen '>
+        <div className='max-w-6xl mx-auto mt-20 lg:mt-24'>
             
             <div className="flex justify-around items-center flex-col-reverse lg:flex-row">
             <div className="mt-12 relative">

@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
         {/*    <!-- Component: Five Columns Footer with Logo --> */}
-        <footer className="w-full text-white bg-black">
+        <footer className="w-full text-white bg-black mt">
           {/*      <!-- Main footer --> */}
           <div className="border-t border-slate-200 footer-bg pt-16 pb-12 text-sm">
             <div className="container mx-auto px-6">

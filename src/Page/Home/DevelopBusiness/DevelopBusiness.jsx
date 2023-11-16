@@ -4,8 +4,8 @@ import itBusiness from '../../../assets/banner-video/it-business.png';
 
 const DevelopBusiness = () => {
     return (
-        <div className="hero min-h-screen mt-[43rem] md:mt-[47rem] lg:mt-[29rem]">
-        <div className="hero-content flex-col lg:flex-row"  data-aos="zoom-in" data-aos-duration="2000">
+        <div className="max-w-6xl mx-auto mt-20 lg:mt-40">
+        <div className="hero-content flex-col lg:flex-row">
           <div className="text-center lg:text-left w-full md:max-w-xl max-w-md">
             <p className="uppercase company-title">WELCOME TO OUR COMPANY</p>
             <h1 className="mt-5 text-3xl md:text-5xl lg:text-6xl">We Make Awesome website & Apps For Your Newly Business</h1>

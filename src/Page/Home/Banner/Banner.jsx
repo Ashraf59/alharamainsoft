@@ -19,7 +19,7 @@ const Banner = () => {
   
     return (
       <Slider {...settings} className=''>
-      <div className="min-h-screen slider__item-01 ">
+      <div className="h-screen slider__item-01 ">
       <div className="banner-title left-0 absolute top-1/3 w-full">
       <h3 className='text-center text-white font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl w-11/12 mx-auto duration-500'>Alharamain Soft's Digital Solutions</h3>
           <p className='text-center text-white font-medium text-lg lg:text-2xl w-9/12 mx-auto'>Our Digital Solutions Are the Key to Making Your Dreams Come True.</p>

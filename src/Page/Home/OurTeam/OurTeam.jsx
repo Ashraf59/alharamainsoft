@@ -100,7 +100,7 @@ const OurTeam = () => {
    
    
     return (
-            <div className='max-w-6xl mx-auto mt-10'>
+            <div className='max-w-6xl mx-auto mt-20 lg:mt-32'>
             <h1 className='text-4xl ml-3 sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-200 text-center lg:text-left'>Alharamain Soft</h1>
              <h2 className='text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold lg:-mt-7 -mt-3 ml-3 text-center lg:text-left'>Team</h2>
              <Marquee>

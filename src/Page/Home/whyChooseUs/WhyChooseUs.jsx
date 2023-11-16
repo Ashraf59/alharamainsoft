@@ -6,7 +6,7 @@ import model from '../../../assets/banner-video/web-development.jpg';
 
 const WhyChooseUs = () => {
     return (
-        <div className="hero min-h-screen bg-black mt-20 pt-6 whyChooseUs-bg">
+        <div className="hero py-10 bg-black mt-20 pt-6 whyChooseUs-bg">
         <div className="hero-content flex justify-center items-center flex-col lg:flex-row">
           <div className="text-center lg:text-left w-full max-w-md md:max-w-xl lg:max-w-md" data-aos="fade-right"
      data-aos-offset="200"
