@@ -10,7 +10,7 @@ import OurTeam from "./OurTeam/OurTeam";
 import Portfolio from "./Portfolio/Portfolio";
 import ServiceMarqueeText from "./ServiceMarqueeText/ServiceMarqueeText";
 import TechnologyMarquee from "./TechnologyMarquee/TechnologyMarquee";
-import WhyChooseUs from "./whyChooseUs/whyChooseUs";
+// import WhyChooseUs from "./whyChooseUs/whyChooseUs";
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
           <ServiceMarqueeText></ServiceMarqueeText>
           <TechnologyMarquee></TechnologyMarquee>
           <Services></Services>
-        <WhyChooseUs></WhyChooseUs>
+        {/* <WhyChooseUs></WhyChooseUs> */}
           <About></About>
           <DevelopBusiness></DevelopBusiness>
          <OurTeam></OurTeam>
