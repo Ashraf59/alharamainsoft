@@ -6,11 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      screen:{
-        sxx: {
-          max: '420px'
-        }
-      }
+      // screen:{
+      //   sxx: {
+      //     max: '420px'
+      //   }
+      // }
     },
   },
   plugins: [require("daisyui")],

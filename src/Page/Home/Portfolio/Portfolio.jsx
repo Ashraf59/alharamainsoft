@@ -51,7 +51,7 @@ const Portfolio = () => {
     ]
     return (
         
-        <div className='max-w-6xl mx-auto mt-10'>
+        <div className='max-w-6xl mx-auto mt-10' id='portfolio'>
             <h1 className='text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-200 text-center lg:text-left'>Alharamain Soft</h1>
              <h2 className='text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold lg:-mt-7 text-center lg:text-left -mt-3'>Portfolio</h2>
              

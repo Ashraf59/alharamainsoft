@@ -11,6 +11,7 @@ import img11 from '../../../assets/team/Mahatir.png'
 import img8 from '../../../assets/team/juwairia.png'
 import img9 from '../../../assets/team/tahidur.png'
 import img10 from '../../../assets/team/Yasen.png'
+import img12 from '../../../assets/team/Sakerul Isalm.png'
 import Team from '../Team/Team';
 import Marquee from "react-fast-marquee";
 
@@ -56,41 +57,48 @@ const OurTeam = () => {
         },
         {
             id: 6,
+            name: 'Sakerul Islam',
+            designation: 'Shopify Developer, ',
+            img:img12 
+              
+        },
+        {
+            id: 7,
             name: 'Tajnuva Taskin Tahiya',
             designation: 'UI/UX Designer, ',
             img:img7 
               
         },
         {
-            id: 7,
+            id: 8,
             name: 'Ashraf Hossain',
             designation: 'UI/UX Designer, ',
             img:img3 
               
         },
         {
-            id: 8,
+            id: 9,
             name: 'Mahatir Mohammmad',
             designation: 'UI/UX Designer,',
             img:img11 
               
         },
         {
-            id: 9,
+            id: 10,
             name: 'Juwairia Rubaiyat',
             designation: 'Digital Marketer,',
             img:img8 
               
         },
         {
-            id: 10,
+            id: 11,
             name: 'Tahidur Rahman',
             designation: 'React Native & Flutter Developer,',
             img:img9 
               
         },
         {
-            id: 11,
+            id: 12,
             name: 'Md Yasen Rafe ',
             designation: 'React Native Developer,',
             img:img10 

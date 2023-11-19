@@ -8,7 +8,7 @@ import Portfolio from "./Portfolio/Portfolio";
 import ServiceMarqueeText from "./ServiceMarqueeText/ServiceMarqueeText";
 import TechnologyMarquee from "./TechnologyMarquee/TechnologyMarquee";
 import WhyChooseUs from "./whyChooseUs/whyChooseUs";
-// import WhyChooseUs from "./whyChooseUs/whyChooseUs";
+
 
 const Home = () => {
     return (

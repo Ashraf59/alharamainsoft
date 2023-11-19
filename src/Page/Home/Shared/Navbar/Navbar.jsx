@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import Button from './Button';
+
 import { FaAlignRight} from "react-icons/fa";
+import logo from '../../../../assets/logo/logo2.png'
 
 const Navbar = () => {
     let Links =[
       {name:"HOME",link:"/"},
       {name:"SERVICE",link:"/"},
       {name:"ABOUT",link:"/"},
-      {name:"BLOG'S",link:"/"},
+      {name:"Portfolio",link:"#portfolio"},
       {name:"CONTACT",link:"/"},
     ];
     let [open,setOpen]=useState(false);
@@ -16,13 +17,14 @@ const Navbar = () => {
       <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
-         <span className='text-3xl text-gray-600 mr-1 pt-2'>
+         {/* <span className='text-3xl text-gray-600 mr-1 pt-2'>
         <ion-icon name="logo-ionic"></ion-icon>
-        </span> 
-        Alharamain 
+        </span>  */}
+        <img className='h-10 mr-2' src={logo} alt="" /> 
+        <h2>AlharamainSoft</h2>
       </div>
       
-      <div onClick={()=>setOpen(!open)} className='text-2xl absolute right-28 top-6 cursor-pointer sm:block md:hidden'>
+      <div onClick={()=>setOpen(!open)} className='text-2xl absolute right-24 top-6 cursor-pointer sm:block md:hidden'>
       {/* <ion-icon name={open ? 'close':'menu'}></ion-icon> */}
       <FaAlignRight name={open ? 'close':'menu'}></FaAlignRight>
      
@@ -36,9 +38,9 @@ const Navbar = () => {
             </li>
           ))
         }
-        <Button>
+        {/* <Button>
           Get Started
-        </Button>
+        </Button> */}
       </ul>
       </div>
     </div>
