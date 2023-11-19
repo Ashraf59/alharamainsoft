@@ -1,6 +1,6 @@
 
 import '../Footer/footer.css';
-import kaaba from '../../../../assets/banner-video/kaaba-2.png';
+import logo from '../../../../assets/logo/logo2.png';
 import {FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneAlt }  from 'react-icons/fa';
 
 const Footer = () => {
@@ -23,8 +23,8 @@ const Footer = () => {
                     className="mb-6 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 text-slate-700 focus:outline-none"
                     href="javascript:void(0)"
                   >
-                    
-              <span className='brand-name text-gray-200 text-xl font-medium'>Alharamainsoft</span>
+                  <img className='h-10 mr-2' src={logo} alt="" />  
+              <span className='brand-name text-gray-200 text-xl font-medium'>AlharamainSoft</span>
                   </a>
                   <p className='text-gray-400'>
                     Expertly made, responsive, accessible components in React and

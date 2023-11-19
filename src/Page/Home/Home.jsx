@@ -10,6 +10,7 @@ import TechnologyMarquee from "./TechnologyMarquee/TechnologyMarquee";
 import WhyChooseUs from "./whyChooseUs/whyChooseUs";
 
 
+
 const Home = () => {
     return (
         <div>
@@ -17,7 +18,7 @@ const Home = () => {
           <ServiceMarqueeText></ServiceMarqueeText>
           <TechnologyMarquee></TechnologyMarquee>
           <Services></Services>
-        <WhyChooseUs></WhyChooseUs>
+          <WhyChooseUs></WhyChooseUs>
           <About></About>
           <DevelopBusiness></DevelopBusiness>
          <OurTeam></OurTeam>

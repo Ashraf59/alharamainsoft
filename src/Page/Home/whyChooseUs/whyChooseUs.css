@@ -1,8 +1,7 @@
   .whyChooseUs-bg{
      background: url('../../../assets/banner-video/hero-bg-line-shapes.png');
     background-position: left;
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat;  
     
 }  
 
@@ -15,6 +14,6 @@
 }
 
 
-.model-img img{
+/* .model-img img{
     transform: translateY(0px);
-}
+} */
