@@ -18,17 +18,11 @@ import Marquee from "react-fast-marquee";
 
 const OurTeam = () => {
     const teamData = [
-        {
-            id: 1,
-            name: 'Md. Ashraf Ali',
-            designation: 'Founder & CEO, ',
-            img:img1 
-            
-        },
+     
         {
             id: 2,
             name: 'Md. Tanvir',
-            designation: 'Full Stack Developer (MERN), ',
+            designation: 'Full Stack Web Developer (MERN), ',
             img:img2 
            
            

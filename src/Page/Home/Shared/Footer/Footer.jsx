@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
         {/*    <!-- Component: Five Columns Footer with Logo --> */}
-        <footer className="w-full text-white bg-black mt">
+        <footer className="w-full text-white bg-black mt" id='contact'>
           {/*      <!-- Main footer --> */}
           <div className="border-t border-slate-200 footer-bg pt-16 pb-12 text-sm">
             <div className="container mx-auto px-6">
@@ -23,13 +23,11 @@ const Footer = () => {
                     className="mb-6 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 text-slate-700 focus:outline-none"
                     href="javascript:void(0)"
                   >
-                  <img className='h-10 mr-2' src={logo} alt="" />  
-              <span className='brand-name text-gray-200 text-xl font-medium'>AlharamainSoft</span>
+                  <img className='h-8 mr-2' src={logo} alt="" /> 
+                    <h2 className='text-white'>AlharamainSoft</h2>
                   </a>
                   <p className='text-gray-400'>
-                    Expertly made, responsive, accessible components in React and
-                    HTML ready to be used on your website or app. Just copy and
-                    paste them on your Tailwind CSS project.
+                  Specializing in web development, Android & iOS apps, digital marketing, and UI/UX design, we bring over 7 years of collective experience to a global stage. Our commitment to international clients is unwavering, ensuring bespoke solutions that transcend borders.
                   </p>
                   <div className='flex mt-5'>
                     <span className='mr-3 hover:text-gray-400 cursor-pointer'><FaFacebook size="25px"/></span>
@@ -38,7 +36,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <nav
-                  className="col-span-2 md:col-span-4 lg:col-span-2"
+                  className="col-span-2 w-[100px] md:col-span-4 lg:col-span-2"
                   aria-labelledby="footer-product-5-logo"
                 >
                   <h3
@@ -83,7 +81,7 @@ const Footer = () => {
                   </ul>
                 </nav>
                 <nav
-                  className="col-span-2 md:col-span-4 lg:col-span-2"
+                  className="col-span-2 -ml-12 sm:ml-0 md:col-span-4 lg:col-span-2"
                   aria-labelledby="footer-docs-5-logo"
                 >
                   <h3
@@ -129,7 +127,7 @@ const Footer = () => {
                   </ul>
                 </nav>
                 <nav
-                  className="col-span-2 md:col-span-4 lg:col-span-2"
+                  className="col-span-1 w-[100px] md:col-span-4 lg:col-span-2"
                   aria-labelledby="footer-about-5-logo"
                 >
                   <h3
@@ -175,7 +173,7 @@ const Footer = () => {
                   </ul>
                 </nav>
                 <nav
-                  className="col-span-2 md:col-span-4 lg:col-span-2"
+                  className="col-span-2 w-[220px] pl-8 sm:pl-0 md:col-span-4 lg:col-span-2"
                   aria-labelledby="footer-get-in-touch-5-logo"
                 >
                   <h3

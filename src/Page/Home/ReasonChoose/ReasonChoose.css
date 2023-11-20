@@ -1,0 +1,14 @@
+.whyChooseUs-bg{
+    background: url('../../../assets/banner-video/hero-bg-line-shapes.png');
+   background-position: left;
+   background-repeat: no-repeat;  
+   
+}  
+
+.whyChooseUs-subtitle{
+   color: #939496;
+}
+
+.whychooseUs-title, .whychooseUs-p{
+   color: #F0EFF4;
+}

@@ -4,6 +4,8 @@ import img3 from '../../../assets/portfolio/dentist1.png';
 import img4 from '../../../assets/portfolio/restaurant.png';
 import img5 from '../../../assets/portfolio/car.png';
 import img6 from '../../../assets/portfolio/school.png';
+import img7 from '../../../assets/portfolio/construction.png';
+import img8 from '../../../assets/portfolio/logistic.png';
 import Gallery from './Gallery';
 import Marquee from "react-fast-marquee";
 
@@ -45,6 +47,20 @@ const Portfolio = () => {
             img: img6,
             link: 'https://educator.qodeinteractive.com/kindergarten/',
             website: 'Eduction'
+
+        },
+        {
+            id: 7,
+            img: img7,
+            link: 'https://themes247.net/html5/construction/demo/home-hero-slideshow.html',
+            website: 'Construction'
+
+        },
+        {
+            id: 8,
+            img: img8,
+            link: 'https://themexriver.com/wp/trakirna/',
+            website: 'Logistic'
 
         }
        

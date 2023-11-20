@@ -13,14 +13,14 @@ const Services = () => {
         {
             id: 1,
             title: 'Web Development',
-            description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
+            description: 'Transform your business and propel it to new heights of success with our comprehensive web solutions.',
             img:web 
             
         },
         {
             id: 2,
             title: 'Android & iOS Development',
-            description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
+            description: 'High-performing mobile apps for iOS and Android that prioritize user experience.',
             img:mob 
            
            
@@ -28,21 +28,21 @@ const Services = () => {
         {
             id: 3,
             title: 'UI/UX Design',
-            description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
+            description: 'Transforming experiences through creative and functional UI/UX design. Captivate and engage with visually stunning, seamless designs.',
             img:ui 
               
         },
         {
             id: 4,
             title: 'Digital Marketing',
-            description: 'Accelerate innovation with world-class tech teams We ll match you to an entire remote team.',
+            description: 'Our expert team will help you expand the digital reach of your business and achieve a higher ROI with a conversion focused approach.',
             img:digital 
               
         }
     ]
   
     return (
-        <div className='mt-20 lg:mt-32' data-aos="fade-up"
+        <div className='mt-20 lg:mt-32' id='service' data-aos="fade-up"
         data-aos-duration="2000">
             <div className=' text-center uppercase'>
             <h2 className='service-title'>WHAT WE PROVIDE</h2>
