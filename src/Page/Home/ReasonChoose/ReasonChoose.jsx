@@ -10,7 +10,7 @@ const ReasonChoose = () => {
          
             <p className="py-6 whyChooseUs-subtitle uppercase">REASON TO CHOOSE US</p>
             <h1 className="text-3xl md:text-5xl lg:text-6xl whychooseUs-title">We provide truly prominent digital solutions.</h1>
-            <p className="py-6 whychooseUs-p text-base lg:text-xl text-gray-400">Reasons to choose us are abundant! With Alharamain Soft Agency, you benefit from our expert team proficient in web development, apps development, digital marketing, and UI/UX design. We guarantee timely project delivery at reasonable prices, ensuring your satisfaction and success in the dynamic digital landscape.</p>
+            <p className="py-6 whychooseUs-p text-base lg:text-xl text-gray-200">Reasons to choose us are abundant! With Alharamain Soft Agency, you benefit from our expert team proficient in web development, apps development, digital marketing, and UI/UX design. We guarantee timely project delivery at reasonable prices, ensuring your satisfaction and success in the dynamic digital landscape.</p>
           </div>
           <div className="mx-auto max-w-xl model-img " data-aos="fade-up"
      data-aos-offset="200"

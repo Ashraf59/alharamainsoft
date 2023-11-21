@@ -19,7 +19,7 @@ const Navbar = () => {
       text-gray-800'>
         
         <img className='h-8 mr-2' src={logo} alt="" /> 
-        <h2>Alharamain<span className='text-slate-300'>Soft</span></h2>
+        <h2>Alharamain<span className='text-gray-400'>Soft</span></h2>
       </div>
       
       <div onClick={()=>setOpen(!open)} className='text-2xl absolute right-8 top-6 cursor-pointer sm:block md:hidden'>

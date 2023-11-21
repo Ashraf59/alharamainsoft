@@ -23,7 +23,7 @@ const About = () => {
         data-aos-duration="3000">
             <p className="py-6 uppercase about-title">who we are</p>
             <h1 className="text-3xl md:text-5xl lg:text-6xl"> We run all kinds of digital services that vow your success.</h1>
-            <p className="py-6 text-base md:text-xl md:max-w-lg max-w-xs mx-auto lg:text-xl text-gray-400">Embark on a digital journey of innovation and excellence with Alharamain Soft, founded in 2023. Our seasoned team, meticulously curated for expertise, crafts bespoke solutions in web development, Android & iOS apps, digital marketing, and UI/UX design. With over 7 years of collective mastery and a global clientele, we seamlessly blend creativity and functionality to redefine your digital presence. Trust us to elevate your vision into a digital masterpiece – because at Alharamain Soft, success is not just a goal; it's a commitment.</p>
+            <p className="py-6 text-base md:text-xl md:max-w-lg max-w-xs mx-auto lg:text-xl text-gray-500">Embark on a digital journey of innovation and excellence with Alharamain Soft, founded in 2023. Our seasoned team, meticulously curated for expertise, crafts bespoke solutions in web development, Android & iOS apps, digital marketing, and UI/UX design. With over 7 years of collective mastery and a global clientele, we seamlessly blend creativity and functionality to redefine your digital presence. Trust us to elevate your vision into a digital masterpiece – because at Alharamain Soft, success is not just a goal; it's a commitment.</p>
 
           </div>
           

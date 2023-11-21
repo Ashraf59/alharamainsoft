@@ -26,7 +26,7 @@ const Footer = () => {
                   <img className='h-8 mr-2' src={logo} alt="" /> 
                     <h2 className='text-white'>AlharamainSoft</h2>
                   </a>
-                  <p className='text-gray-400'>
+                  <p className='text-gray-200'>
                   Specializing in web development, Android & iOS apps, digital marketing, and UI/UX design, we bring over 7 years of collective experience to a global stage. Our commitment to international clients is unwavering, ensuring bespoke solutions that transcend borders.
                   </p>
                   <div className='flex mt-5'>
