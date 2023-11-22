@@ -1,6 +1,7 @@
 
 import '../Footer/footer.css';
-import logo from '../../../../assets/logo/logo2.png';
+import logo from '../../../../assets/logo/footer-logo-2.png'
+import brand from '../../../../assets/logo/footer-logo.png'
 import {FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneAlt }  from 'react-icons/fa';
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
         {/*    <!-- Component: Five Columns Footer with Logo --> */}
         <footer className="w-full text-white bg-black mt" id='contact'>
           {/*      <!-- Main footer --> */}
-          <div className="border-t border-slate-200 footer-bg pt-16 pb-12 text-sm">
+          <div className="border-t border-slate-200 bg-black pt-16 pb-12 text-sm">
             <div className="container mx-auto px-6">
               <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
                 <div
@@ -23,8 +24,14 @@ const Footer = () => {
                     className="mb-6 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 text-slate-700 focus:outline-none"
                     href="javascript:void(0)"
                   >
-                  <img className='h-8 mr-2' src={logo} alt="" /> 
-                    <h2 className='text-white'>AlharamainSoft</h2>
+                  {/* <img className='h-8 mr-2' src={logo} alt="" /> 
+                    <h2 className='text-white'>AlharamainSoft</h2> */}
+                    <div className='cursor-pointer flex items-center'>
+        
+        <img className='h-6 md:h-7 mr-1' src={logo} alt="" /> 
+        <img className='h-6 md:h-7 mr-1' src={brand} alt="" /> 
+        {/* <h2 className='brand-name'>Alharamain<span className='text-gray-400'>Soft</span></h2> */}
+      </div>
                   </a>
                   <p className='text-gray-200'>
                   Specializing in web development, Android & iOS apps, digital marketing, and UI/UX design, we bring over 7 years of collective experience to a global stage. Our commitment to international clients is unwavering, ensuring bespoke solutions that transcend borders.
@@ -217,8 +224,8 @@ const Footer = () => {
                 </nav>
               </div>
             </div>
-            <div className='text-center border-t border-slate-200 pt-8 mt-6 text-gray-400'>
-    <p>Copyright © 2023 - All right reserved by Alharamainsoft</p>
+            <div className='text-center border-t border-slate-200 pt-8 mt-6 text-gray-300'>
+    <p>Copyright © 2023 - All right reserved by AlharamainSoft</p>
   </div>
           </div>
           

@@ -46,7 +46,7 @@ const Services = () => {
         data-aos-duration="2000">
             <div className=' text-center uppercase'>
             <h2 className='service-title'>WHAT WE PROVIDE</h2>
-            <h3 className='capitalize text-3xl md:text-5xl font-bold mt-5 service-subtitle'>Igniting growth through our tailored digital services.</h3>
+            <h3 className='capitalize text-3xl md:text-5xl font-bold mt-5 service-subtitle mx-4'>Igniting growth through our tailored digital services.</h3>
             </div>
            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-6 container max-w-xs mx-auto sm:max-w-[600px] lg:max-w-6xl'>
            {

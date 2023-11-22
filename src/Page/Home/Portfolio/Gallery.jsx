@@ -16,7 +16,7 @@ const Gallery = ({image}) => {
                    </div>
 
                 </div>
-                <div className="absolute bottom-0 flex items-center justify-center text-5xl text-gray-100 w-[340px] sm:w-[290px] h-20 font-semibold bg-black bg-opacity-50">
+                <div className="absolute bottom-0 flex items-center justify-center text-4xl text-gray-100 w-[340px] sm:w-[290px] h-20 font-semibold bg-black bg-opacity-50">
                     <h1>{website}</h1>
                 </div>
                 

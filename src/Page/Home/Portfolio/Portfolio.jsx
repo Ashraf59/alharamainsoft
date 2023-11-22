@@ -6,6 +6,9 @@ import img5 from '../../../assets/portfolio/car.png';
 import img6 from '../../../assets/portfolio/school.png';
 import img7 from '../../../assets/portfolio/construction.png';
 import img8 from '../../../assets/portfolio/logistic.png';
+import img9 from '../../../assets/portfolio/ecommerce-2.png';
+import img10 from '../../../assets/portfolio/hotel -booking.png';
+import img11 from '../../../assets/portfolio/travel.png';
 import Gallery from './Gallery';
 import Marquee from "react-fast-marquee";
 
@@ -19,50 +22,72 @@ const Portfolio = () => {
         },
         {
             id: 2,
+            img: img9,
+            link: 'https://practice.torikul.me/',
+            website: 'Fsahion'
+
+        },
+        {
+            id: 3,
             img: img2,
             link: 'https://findhouse-nextjs.netlify.app/',
             website: 'Real Estate'
         },
         {
-            id: 3,
+            id: 4,
             img: img3,
             link: 'https://dentalia.orionthemes.com/demo-1/',
             website: 'Dental'
         },
         {
-            id: 4,
+            id: 5,
             img: img4,
             link: 'https://beautiful-brigadeiros-3390e8.netlify.app/',
             website: 'Restaurant'
 
         },
         {
-            id: 5,
+            id: 6,
             img: img5,
             link: 'https://carhire-01.netlify.app/home',
             website: 'Car Hire'
         },
         {
-            id: 6,
+            id: 7,
             img: img6,
             link: 'https://educator.qodeinteractive.com/kindergarten/',
             website: 'Eduction'
 
         },
         {
-            id: 7,
+            id: 8,
             img: img7,
             link: 'https://themes247.net/html5/construction/demo/home-hero-slideshow.html',
             website: 'Construction'
 
         },
         {
-            id: 8,
+            id: 9,
             img: img8,
             link: 'https://themexriver.com/wp/trakirna/',
             website: 'Logistic'
 
+        },
+        {
+            id: 10,
+            img: img10,
+            link: 'http://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/',
+            website: 'Hotel Booking'
+
+        },
+        {
+            id: 11,
+            img: img11,
+            link: 'https://gotrip-appdir.vercel.app/',
+            website: 'Travel Agency'
+
         }
+     
        
     ]
     return (
