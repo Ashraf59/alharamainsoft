@@ -13,6 +13,7 @@ import img9 from '../../../assets/team/tahidur.png'
 import img10 from '../../../assets/team/Yasen.png'
 import img12 from '../../../assets/team/Sakerul Isalm.png'
 import img13 from '../../../assets/team/Ashraful.png'
+import img14 from '../../../assets/team/Murad Hasan.png'
 import Team from '../Team/Team';
 import Marquee from "react-fast-marquee";
 
@@ -21,7 +22,7 @@ const OurTeam = () => {
     const teamData = [
      
         {
-            id: 2,
+            id: 1,
             name: 'Md. Tanvir',
             designation: 'Full Stack Web Developer (MERN), ',
             img:img2 
@@ -30,31 +31,38 @@ const OurTeam = () => {
         },
     
         {
-            id: 3,
+            id: 2,
             name: 'Md. Amanullah Parvez',
             designation: 'Full Stack Web Developer (MERN), ',
             img:img4 
               
         },
         {
-            id: 4,
+            id: 3,
             name: 'Md. Hafijul Islam',
             designation: 'Wordpress Developer, ',
             img:img5 
               
         },
         {
-            id: 5,
+            id: 4,
             name: 'Torikul Islam Tarif',
             designation: 'Wordpress Developer, ',
             img:img6 
               
         },
         {
-            id: 6,
+            id: 5,
             name: 'Md Ashraful Islam',
             designation: 'Wordpress Developer, ',
             img:img13 
+              
+        },
+        {
+            id: 6,
+            name: 'Murad Hasan',
+            designation: 'Wordpress Developer, ',
+            img:img14 
               
         },
         {
