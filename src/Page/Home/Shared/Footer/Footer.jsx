@@ -3,6 +3,7 @@ import '../Footer/footer.css';
 import logo from '../../../../assets/logo/footer-logo-2.png'
 import brand from '../../../../assets/logo/footer-logo.png'
 import {FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneAlt }  from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -24,8 +25,7 @@ const Footer = () => {
                     className="mb-6 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 text-slate-700 focus:outline-none"
                     href="javascript:void(0)"
                   >
-                  {/* <img className='h-8 mr-2' src={logo} alt="" /> 
-                    <h2 className='text-white'>AlharamainSoft</h2> */}
+                 
                     <div className='cursor-pointer flex items-center'>
         
         <img className='h-6 md:h-7 mr-1' src={logo} alt="" /> 
@@ -37,8 +37,12 @@ const Footer = () => {
                   Specializing in web development, Android & iOS apps, digital marketing, and UI/UX design, we bring over 7 years of collective experience to a global stage. Our commitment to international clients is unwavering, ensuring bespoke solutions that transcend borders.
                   </p>
                   <div className='flex mt-5'>
-                    <span className='mr-3 hover:text-gray-400 cursor-pointer'><FaFacebook size="25px"/></span>
-                   <span className='mr-3 hover:text-gray-400 cursor-pointer'> <FaLinkedin size="25px"/></span>
+                  <Link className='mr-3' to="https://www.facebook.com/alharamainsoft/" target='_blank'>
+                  <span className='hover:text-gray-400 cursor-pointer'><FaFacebook size="25px"/></span>
+                  </Link>
+                   <Link className='mr-3' to="https://www.linkedin.com/company/alharamainsoft/?viewAsMember=true" target='_blank'>
+                   <span className='hover:text-gray-400 cursor-pointer'> <FaLinkedin size="25px"/></span>
+                   </Link>
                    <span className='hover:text-gray-400 cursor-pointer'><FaInstagram size="25px"/></span>
                   </div>
                 </div>

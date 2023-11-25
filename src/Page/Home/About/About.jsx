@@ -13,7 +13,7 @@ const About = () => {
      data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <img className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg w-11/12 mx-auto' src={bigImg} alt="" />
             </div>
-            <div className='absolute -bottom-8 mx-8 lg:-right-8' data-aos="fade-up"
+            <div className='absolute -bottom-8 mx-8 lg:-right-8' data-aos="zoom-in-up"
      data-aos-offset="200"
      data-aos-easing="ease-in-sine" data-aos-duration="2000">
             <img className='rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-10/12 mx-auto' src={smallImg} alt="" />
