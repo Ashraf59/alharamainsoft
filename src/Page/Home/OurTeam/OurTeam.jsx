@@ -12,7 +12,6 @@ import img8 from '../../../assets/team/juwairia.png'
 import img9 from '../../../assets/team/tahidur.png'
 import img10 from '../../../assets/team/Yasen.png'
 import img12 from '../../../assets/team/Sakerul Isalm.png'
-import img13 from '../../../assets/team/Ashraful.png'
 import img14 from '../../../assets/team/Murad Hasan.png'
 import Team from '../Team/Team';
 import Marquee from "react-fast-marquee";
@@ -51,13 +50,7 @@ const OurTeam = () => {
             img:img6 
               
         },
-        {
-            id: 5,
-            name: 'Md Ashraful Islam',
-            designation: 'Wordpress Developer, ',
-            img:img13 
-              
-        },
+   
         {
             id: 6,
             name: 'Murad Hasan',
